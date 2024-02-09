@@ -1,5 +1,5 @@
 {
-    "Lego_fname":"./test_lego/stair_19.json",
+    "Lego_fname":"./test_lego/external_weight_good.json",
     "Brick_Library_fname":"./lego_library.json",
     "g":9.8,
     "T":100,
