@@ -24,7 +24,7 @@ Each assembly design is defined in a json file. Each step includes the brick x, 
     <img src="./images/stick_light_analysis.png" alt="image" width="15%" height="auto" hspace=1>
     <img src="./images/stick_heavy_analysis.png" alt="image" width="15%" height="auto" hspace=1>
     <img src="./images/stick_heavy_good_analysis.png" alt="image" width="15%" height="auto" hspace=1>
-    <figcaption align="center">Stability analysis of the corresponding Lego structure. Black: more stable. Red: higher internal stress. White: collapsing bricks.</figcaption>
+    <figcaption align="center">Top-left to top-right: 19-level stairs; 20-level stairs that collapses; improved 20-level stairs; a stick with 2 loads; a collapsing stick with 3 loads; a stable stick with 3 loads. Bottom: stability analysis of the corresponding Lego structure. Black: more stable. Red: higher internal stress. White: collapsing bricks.</figcaption>
 </p>
 
 
