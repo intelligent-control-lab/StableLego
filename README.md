@@ -18,7 +18,6 @@ Each assembly design is defined in a json file. Each step includes the brick x, 
     <img src="./images/stick_heavy.png" alt="image" width="15%" height="auto" hspace=1>
     <img src="./images/stick_heavy_good.png" alt="image" width="15%" height="auto" hspace=1>
     <figcaption align="center">Left to right: 19-level stairs; 20-level stairs that collapses; improved 20-level stairs; a stick with 2 loads; a collapsing stick with 3 loads; a stable stick with 3 loads.</figcaption>
-    </br>
     <img src="./images/stair_low_analysis.png" alt="image" width="15%" height="auto" hspace=1>
     <img src="./images/stair_high_analysis.png" alt="image" width="15%" height="auto" hspace=1>
     <img src="./images/stair_high_good_analysis.png" alt="image" width="15%" height="auto" hspace=1>
