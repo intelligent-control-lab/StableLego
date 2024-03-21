@@ -66,3 +66,18 @@ The stability analysis can be extended to account for external loads.
     <img src="./images/external_weight_bad_analysis.png" alt="image" width="24%" height="auto" hspace=1>
     <!-- <figcaption>Examples of accounting for external loads. </figcaption> -->
 </p>
+
+
+## Citation
+If you find this repository helpful, please kindly cite our work.
+```
+@article{liu2024stablelego,
+  title={StableLego: Stability Analysis of Block Stacking Assembly},
+  author={Liu, Ruixuan and Deng, Kangle and Wang, Ziwei and Liu, Changliu},
+  journal={arXiv preprint arXiv:2402.10711},
+  year={2024}
+}
+```
+
+## License
+This project is licensed under the MIT License.
