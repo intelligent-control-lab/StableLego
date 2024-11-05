@@ -71,12 +71,17 @@ The stability analysis can be extended to account for external loads.
 ## Citation
 If you find this repository helpful, please kindly cite our work.
 ```
-@article{liu2024stablelego,
-  title={StableLego: Stability Analysis of Block Stacking Assembly},
+@ARTICLE{10556686,
   author={Liu, Ruixuan and Deng, Kangle and Wang, Ziwei and Liu, Changliu},
-  journal={arXiv preprint arXiv:2402.10711},
-  year={2024}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={StableLego: Stability Analysis of Block Stacking Assembly}, 
+  year={2024},
+  volume={9},
+  number={11},
+  pages={9383-9390},
+  keywords={Assembly;Stability analysis;Force;Stacking;Structural engineering;Three-dimensional displays;Presses;Assembly;performance evaluation and bench marking;robotics and automation in construction},
+  doi={10.1109/LRA.2024.3414281}}
+
 ```
 
 ## License
