@@ -16,8 +16,20 @@ def stability_score(config_fname="./config.json"):
     alpha = config["Alpha"]
     beta = config["Beta"]
     lego_structure = load_json(config["Lego_fname"])
+
+    min_z = 100
+    try:
+        del lego_structure["category_id"]
+        del lego_structure["model_id"]
+    except:
+        pass
+
     for key in lego_structure.keys():
-        lego_structure[key]["z"] += 1
+        if(lego_structure[key]["z"] < min_z):
+            min_z = lego_structure[key]["z"]
+    if(min_z == 0):
+        for key in lego_structure.keys():
+            lego_structure[key]["z"] += 1
     world_grid = construct_world_grid(lego_structure, world_dim, brick_library) 
     n_bricks = len(lego_structure)
     t_start = time.time()
